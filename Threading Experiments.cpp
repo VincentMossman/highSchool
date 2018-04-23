@@ -67,7 +67,7 @@ using namespace std;
 void  * function1(void * argument);
 void  * function2(void * argument);
 
-int mainCUNTSUCKINGFAGGOT( void )
+int mainOLD( void )
 {
     pthread_t t1, t2 ; // declare 2 threads.
     pthread_create( &t1, NULL, function1,NULL); // create a thread running function1
